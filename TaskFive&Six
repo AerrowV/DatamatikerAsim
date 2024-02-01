@@ -56,9 +56,9 @@ void draw(){
   //Add the code for 6.c here
 
 if (counter==0){
-  red=(red=255)%60;
-  green=(green=255)%120;
-  blue=(blue=255)%180;
+  red=random(255);
+  green=random(255);
+  blue=random(255);
 }
 
 }
