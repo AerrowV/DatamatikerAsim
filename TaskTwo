@@ -1,0 +1,43 @@
+String teacherName = "Tess Løvgreen";
+/*
+Skriv den rette datatype og et passende variabelnavn 
+foran denne værdi: String teacherName= "Tess Løvgreen"
+*/
+
+//2.1 
+int a = 365;
+println(a);
+
+//2.2 + 2.3
+String storBy = "København";
+String landScape = "landScape1";
+boolean landScape1 = true;
+println(storBy);
+println(landScape);
+println(landScape1);
+
+//2.4
+int b = 60;
+int c = 24;
+println(b+c);
+
+//2.5
+float d = 22.12;
+println(d);
+
+//2.6
+String intro = "Hej, jeg hedder ";
+println(intro+teacherName);
+
+//2.7
+boolean landScape2 = false;
+println(landScape2);
+
+//2.8
+float e = 2.2;
+float f = 33;
+println(e+f);
+
+//2.9
+char g='S';
+println(g);
