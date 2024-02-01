@@ -1,0 +1,97 @@
+// 3.a start en ny Processing sketch og kald den Task3
+
+// 3.b I det globale scope, erklær en variabel af typen String med navnet address.
+String address;
+
+/* 
+3.c tilføj erklæring af en varibel som gemmer summen af 
+to heltal. Find selv på passende navn og datatype. 
+*/
+int a = 250+100;
+
+// 3.d gør det samme med en variabel som gemmer resultatet af en division.
+float b = 560/25;
+
+// 3.e gør det samme med en variabel som gemmer en besked til brugeren.
+String c = "GG try again ";
+
+// 4.a tag fat i sketchen fra Task 3 og tilføj en setup metode.
+
+/* 
+4.b I setup metoden, tildel værdier 
+til de variable du har erklæret i det globale scope.
+*/
+void setup() {
+  address = "Hello World ";
+   
+
+/* 
+4.c Med printLn kommandoen, udskriv alle variablene, 
+med et label foran. Fx. sådan her for variablen address:
+*/
+
+  println("Adresse: "+address);
+  println("Adresse: "+a);
+  println("Adresse: "+b);
+  println("Adresse: "+c);
+  
+  
+/*
+4.d Tildel helt nye værdier til variablene, og udskriv dem igen. 
+Genbrug evt dine println kommandoer.
+*/
+
+  address = "Goodbye World ";
+  int a = 100;
+  float b = 3.14;
+  String c = "git gud ";
+
+  println("Adresse: "+address);
+  println("Adresse: "+a);
+  println("Adresse: "+b);
+  println("Adresse: "+c);
+
+
+/*
+4.e Tildel nye værdier til variablene, men som tilføjelser - 
+dvs. uden at overskrive det der allerede er gemt i variablene. 
+Udskriv dem igen. Genbrug evt dine println kommandoer.
+*/
+
+  println("Adresse: "+address +2);
+  println("Adresse: "+a*9);
+  println("Adresse: "+b/3);
+  println("Adresse: "+c+1);
+
+
+// 4.f Tæl alle de numeriske variable op med 1. Udskriv.
+
+  int a1 = 100;
+  float b1 = 3.14;
+
+  a1++;
+  println(a1);
+  b1++;
+  println(b1);
+
+// 4.g Tæl alle de numeriske variable op med 3. Udskriv.
+
+  int a2 = 100;
+  float b2 = 3.14;
+
+  a2+=3;
+  println(a2);
+  b2+=3;
+  println(b2);
+
+// 4.h Tæl alle de numeriske variable ned med 1. Udskriv.
+
+  int a3 = 100;
+  float b3 = 3.14;
+  
+  a3--;
+  println(a3);
+  b3--;
+  println(b3);
+  
+}
